@@ -1,0 +1,4 @@
+#complex,groundtruth,z3res,verificationtime
+-x-1,~x,True,0.011144161224365234
+-(x&y)-(x&~y),-x,True,0.01035928726196289
+(x|y)+y-(~x&y),x+y,True,0.026297569274902344

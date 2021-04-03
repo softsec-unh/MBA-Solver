@@ -1,0 +1,7 @@
+#complex,groundtruth,stpres,verificationtime
+-x-1,~x,True,0.000393867492676
+-(x&y)-(x&~y),-x,True,0.0103130340576
+(x|y)+y-(~x&y),x+y,True,0.0138099193573
+(x|y)+3*~(x|y)-2*~(x^y)-~(x&y),-(x&y),True,0.758054971695
+x+y-(x&y),x|y,True,0.0224099159241
+-~(x&y)+(~x|y)+(x&~y),x&y,True,0.0029399394989
